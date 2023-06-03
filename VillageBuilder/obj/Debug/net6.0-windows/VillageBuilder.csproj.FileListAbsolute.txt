@@ -1,0 +1,109 @@
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Fonts\VlaShu.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\iron.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\MyPixelButton.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\screen resolution\srbutton1280x720.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\screen resolution\srbutton1440x900.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\screen resolution\srbutton1600x900.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\screen resolution\srbutton1920x1080.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\shop.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\stone.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tile.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\TileForBuild.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tiles\tileForest.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tiles\tileForestBuy.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tiles\tileMine.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tiles\tileMineBuy.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\white_pixel.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\wood.xnb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\VillageBuilder.exe
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\VillageBuilder.deps.json
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\VillageBuilder.runtimeconfig.json
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\VillageBuilder.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\VillageBuilder.pdb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\MonoGame.Framework.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.Direct3D11.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.MediaFoundation.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.XAudio2.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.XInput.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.csproj.AssemblyReference.cache
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.AssemblyInfoInputs.cache
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.AssemblyInfo.cs
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.csproj.CoreCompileInputs.cache
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.csproj.CopyComplete
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\obj\Debug\net6.0-windows\refint\VillageBuilder.dll
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.pdb
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.genruntimeconfig.cache
+C:\Users\admin\Source\Repos\VillageBuilder\VillageBuilder\obj\Debug\net6.0-windows\ref\VillageBuilder.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.csproj.AssemblyReference.cache
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.AssemblyInfo.cs
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\refint\VillageBuilder.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.pdb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\SharpFont.dll.config
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Fonts\VlaShu.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\iron.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\MyPixelButton.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\screen resolution\srbutton1280x720.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\screen resolution\srbutton1440x900.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\screen resolution\srbutton1600x900.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\screen resolution\srbutton1920x1080.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\shop.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\stone.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tile.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\TileForBuild.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tiles\tileForest.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tiles\tileForestBuy.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tiles\tileMine.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tiles\tileMineBuy.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\white_pixel.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\wood.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\VillageBuilder.exe
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\VillageBuilder.deps.json
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\VillageBuilder.runtimeconfig.json
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\VillageBuilder.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\VillageBuilder.pdb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\MonoGame.Framework.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.Direct2D1.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.Direct3D11.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.Direct3D9.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.DXGI.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.Mathematics.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.MediaFoundation.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.XAudio2.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\SharpDX.XInput.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\runtimes\debian-x64\native\libuv.so
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\runtimes\fedora-x64\native\libuv.so
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\runtimes\opensuse-x64\native\libuv.so
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\runtimes\osx\native\libuv.dylib
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\runtimes\rhel-x64\native\libuv.so
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\runtimes\win7-arm\native\libuv.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\runtimes\win7-x64\native\libuv.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\runtimes\win7-x86\native\libuv.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.csproj.CopyComplete
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.genruntimeconfig.cache
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\ref\VillageBuilder.dll
