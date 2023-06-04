@@ -633,18 +633,6 @@
           }
         }
       },
-      "SharpFont/4.0.1": {
-        "type": "package",
-        "dependencies": {
-          "SharpFont.Dependencies": "(, )"
-        },
-        "build": {
-          "build/SharpFont.props": {}
-        }
-      },
-      "SharpFont.Dependencies/2.5.5": {
-        "type": "package"
-      },
       "System.AppContext/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -3195,41 +3183,6 @@
         "lib/uap10.0/SharpDX.XInput.xml",
         "sharpdx.xinput.4.0.1.nupkg.sha512",
         "sharpdx.xinput.nuspec"
-      ]
-    },
-    "SharpFont/4.0.1": {
-      "sha512": "yoFLcuWMYdBGB4YLq3bvzrctItJIb+EuK7C7PGgBzqsKxx5UXUwTce64kbvuDQWlMf6p4uQwDm5t2rQdZ9EkyA==",
-      "type": "package",
-      "path": "sharpfont/4.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/SharpFont.props",
-        "config/SharpFont.dll.config",
-        "lib/net45/SharpFont.dll",
-        "lib/net45/SharpFont.dll.config",
-        "lib/net45/SharpFont.xml",
-        "sharpfont.4.0.1.nupkg.sha512",
-        "sharpfont.nuspec"
-      ]
-    },
-    "SharpFont.Dependencies/2.5.5": {
-      "sha512": "QlGhaq7pL90m2PNkP+YRaFR+wQsDULxOo3kFUUm/jaf6Ym++jCR2R78oMtKqzVjjCjm1Skwy3k1jYC0mx7/lXw==",
-      "type": "package",
-      "path": "sharpfont.dependencies/2.5.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "bin/msvc10/x64/freetype6.dll",
-        "bin/msvc10/x86/freetype6.dll",
-        "bin/msvc11/x64/freetype6.dll",
-        "bin/msvc11/x86/freetype6.dll",
-        "bin/msvc12/x64/freetype6.dll",
-        "bin/msvc12/x86/freetype6.dll",
-        "bin/msvc9/x64/freetype6.dll",
-        "bin/msvc9/x86/freetype6.dll",
-        "sharpfont.dependencies.2.5.5.nupkg.sha512",
-        "sharpfont.dependencies.nuspec"
       ]
     },
     "System.AppContext/4.1.0": {
@@ -7567,8 +7520,7 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "MonoGame.Content.Builder.Task >= 3.8.1.303",
-      "MonoGame.Framework.WindowsDX >= 3.8.1.303",
-      "SharpFont >= 4.0.1"
+      "MonoGame.Framework.WindowsDX >= 3.8.1.303"
     ]
   },
   "packageFolders": {
@@ -7623,10 +7575,6 @@
           "MonoGame.Framework.WindowsDX": {
             "target": "Package",
             "version": "[3.8.1.303, )"
-          },
-          "SharpFont": {
-            "target": "Package",
-            "version": "[4.0.1, )"
           }
         },
         "imports": [
@@ -7651,17 +7599,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1602",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "SharpFont 4.0.1 не задает включенную нижнюю границу для зависимости SharpFont.Dependencies. Использовано наилучшее приближенное соответствие SharpFont.Dependencies 2.5.5.",
-      "libraryId": "SharpFont.Dependencies",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

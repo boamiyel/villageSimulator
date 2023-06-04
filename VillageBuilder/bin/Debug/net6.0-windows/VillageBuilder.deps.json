@@ -9,8 +9,7 @@
       "VillageBuilder/1.0.0": {
         "dependencies": {
           "MonoGame.Content.Builder.Task": "3.8.1.303",
-          "MonoGame.Framework.WindowsDX": "3.8.1.303",
-          "SharpFont": "4.0.1"
+          "MonoGame.Framework.WindowsDX": "3.8.1.303"
         },
         "runtime": {
           "VillageBuilder.dll": {}
@@ -471,12 +470,6 @@
           }
         }
       },
-      "SharpFont/4.0.1": {
-        "dependencies": {
-          "SharpFont.Dependencies": "2.5.5"
-        }
-      },
-      "SharpFont.Dependencies/2.5.5": {},
       "System.AppContext/4.1.0": {
         "dependencies": {
           "System.Runtime": "4.1.0"
@@ -1734,20 +1727,6 @@
       "sha512": "sha512-vDnp6CTVC9dKQHwLVF4GLNdCJqGMUuxyZLLlorDjgnVOOO7koPR20/tqt1A53gnNy/Id93Nzq7K2ILLvBQWvGQ==",
       "path": "sharpdx.xinput/4.0.1",
       "hashPath": "sharpdx.xinput.4.0.1.nupkg.sha512"
-    },
-    "SharpFont/4.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-yoFLcuWMYdBGB4YLq3bvzrctItJIb+EuK7C7PGgBzqsKxx5UXUwTce64kbvuDQWlMf6p4uQwDm5t2rQdZ9EkyA==",
-      "path": "sharpfont/4.0.1",
-      "hashPath": "sharpfont.4.0.1.nupkg.sha512"
-    },
-    "SharpFont.Dependencies/2.5.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-QlGhaq7pL90m2PNkP+YRaFR+wQsDULxOo3kFUUm/jaf6Ym++jCR2R78oMtKqzVjjCjm1Skwy3k1jYC0mx7/lXw==",
-      "path": "sharpfont.dependencies/2.5.5",
-      "hashPath": "sharpfont.dependencies.2.5.5.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fjd1+c+m4p5zLRTIAujvcOvyZ8kqs92Yn3pfx9Z8kl2Z4V1uyX2xwGiSh71wsQRzUDOSGi5R+qgUQWBiJyhrVA==",
+  "dgSpecHash": "BeO6zKLAM/48veFS1vSnFoMxMJpZcPxFvxJ9PxMT/c5iakdlG/KSFfmkNcgILOR0yJY2A8aqbSk+eEnicZsI6A==",
   "success": true,
   "projectFilePath": "C:\\Users\\admin\\OneDrive\\Рабочий стол\\Васильев прога❤\\villageSimulator\\VillageBuilder\\VillageBuilder.csproj",
   "expectedPackageFiles": [
@@ -39,8 +39,6 @@
     "C:\\Users\\admin\\.nuget\\packages\\sharpdx.mediafoundation\\4.0.1\\sharpdx.mediafoundation.4.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\sharpdx.xaudio2\\4.0.1\\sharpdx.xaudio2.4.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\sharpdx.xinput\\4.0.1\\sharpdx.xinput.4.0.1.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\sharpfont\\4.0.1\\sharpfont.4.0.1.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\sharpfont.dependencies\\2.5.5\\sharpfont.dependencies.2.5.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.buffers\\4.0.0\\system.buffers.4.0.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
@@ -128,16 +126,5 @@
     "C:\\Users\\admin\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1602",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "SharpFont 4.0.1 не задает включенную нижнюю границу для зависимости SharpFont.Dependencies. Использовано наилучшее приближенное соответствие SharpFont.Dependencies 2.5.5.",
-      "libraryId": "SharpFont.Dependencies",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  "logs": []
 }
