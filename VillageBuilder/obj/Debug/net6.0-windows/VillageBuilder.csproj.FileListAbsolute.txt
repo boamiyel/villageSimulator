@@ -60,7 +60,6 @@ C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\v
 C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.dll
 C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\refint\VillageBuilder.dll
 C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.pdb
-C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\SharpFont.dll.config
 C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Fonts\VlaShu.xnb
 C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\iron.xnb
 C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\MyPixelButton.xnb
@@ -107,3 +106,5 @@ C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\v
 C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.csproj.CopyComplete
 C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\VillageBuilder.genruntimeconfig.cache
 C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\obj\Debug\net6.0-windows\ref\VillageBuilder.dll
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tiles\tileIronMine.xnb
+C:\Users\admin\OneDrive\Рабочий стол\Васильев прога❤\villageSimulator\VillageBuilder\bin\Debug\net6.0-windows\Content\Sprites\Tiles\tileIronMineBuy.xnb

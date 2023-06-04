@@ -12,6 +12,14 @@
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Buildings\**" />
+    <EmbeddedResource Remove="Buildings\**" />
+    <None Remove="Buildings\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="C:\Users\admin\.nuget\packages\sharpfont\4.0.1\build\..\config\SharpFont.dll.config" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.1.303" />
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.1.303" />
     <PackageReference Include="SharpFont" Version="4.0.1" />
