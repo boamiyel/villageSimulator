@@ -13,15 +13,15 @@ namespace VillageBuilder
             set
             {
                 if (value < 0)
-                    throw new ArgumentOutOfRangeException("Count");
+                    throw new ArgumentOutOfRangeException("Count can't be less then zero");
 
                 _count = value;
             }
         }
 
         public ResourceType Type { get; }
-        private Texture2D _texture;
-        private SpriteFont _font;
+        private readonly Texture2D _texture;
+        private readonly SpriteFont _font;
 
         private Rectangle _rectSprite;
         private Rectangle _rectText;

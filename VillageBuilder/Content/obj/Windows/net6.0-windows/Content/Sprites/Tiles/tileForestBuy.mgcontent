@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileForestBuy.png</SourceFile>
-  <SourceTime>2023-06-04T18:57:50.4619023+05:00</SourceTime>
+  <SourceTime>2023-06-08T17:07:24.5979621+05:00</SourceTime>
   <DestFile>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/bin/Windows/Content/Sprites/Tiles/tileForestBuy.xnb</DestFile>
-  <DestTime>2023-06-04T19:23:31.6188916+05:00</DestTime>
+  <DestTime>2023-06-08T17:32:08.5937628+05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T16:44:56+05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

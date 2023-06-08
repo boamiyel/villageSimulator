@@ -8,116 +8,101 @@ namespace VillageBuilder
     public class Game1 : Game
     {
         public static GraphicsDeviceManager Graphics { get; private set; }
-        public static  SpriteBatch SpriteBatch { get; private set; }
-        public static ContentManager ContentManage { get; private set; }
+        public static ContentManager ContentManager { get; private set; }
+        public static SpriteBatch SpriteBatch { get; private set; }
 
-        public static Vector2 CellRect { get; private set; }
-        public static Resource[] Resources { get; private set; }
-        public static bool OnBuildMode { get; private set; } = false;
+        private bool _onMenu = true;
+        private Menu _menu;
 
-        private const int CellsInWidth = 20;
-        private const int CellsInHeight = 16;
-        public const float ShareInWidthUI = 0.25f;
+        private bool _onSettings = false;
+        private Settings _settings;
 
-        private SpriteFont _font;
-        private Cell[,] _cells; // width, height
-        private UI _ui;
+        private bool _haveWin = false;
+        private Win _win;
+
+        private GamePlay _game;
 
         public Game1()
         {
             Graphics = new GraphicsDeviceManager(this);
-            Graphics.PreferredBackBufferWidth = 1920;
-            Graphics.PreferredBackBufferHeight = 1080;
-            Graphics.ToggleFullScreen();
+ 
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
 
-            ContentManage = Content;
-            
-            CellRect = new Vector2(
-                Graphics.PreferredBackBufferWidth * (1 - ShareInWidthUI) / CellsInWidth,
-                Graphics.PreferredBackBufferHeight / CellsInHeight);
+            ContentManager = Content;
         }
 
         protected override void LoadContent()
         {
             SpriteBatch = new SpriteBatch(GraphicsDevice);
-            _font = Game1.ContentManage.Load<SpriteFont>(@"Fonts/VlaShu");
 
-            _cells = new Cell[CellsInWidth, CellsInHeight];
-            for (int i = 0; i < _cells.GetLength(0); i++)
-            {
-                for (int j = 0; j < _cells.GetLength(1); j++)
-                {
-                    _cells[i, j] = new Cell(CellRect, new Vector2(i * CellRect.X, j * CellRect.Y));
-                    _cells[i, j].Initialize();
-                }
-            }
-
-            var widthRes = Game1.Graphics.PreferredBackBufferWidth * (1 - ShareInWidthUI);
-
-            var woodTexture = Game1.ContentManage.Load<Texture2D>(@"Sprites/wood");
-            var ironTexture = Game1.ContentManage.Load<Texture2D>(@"Sprites/iron");
-            var stoneTexture = Game1.ContentManage.Load<Texture2D>(@"Sprites/stone");
-
-            Resources = new[]
-            {
-                new Resource(ResourceType.Wood, 20, woodTexture, _font),
-                new Resource(ResourceType.Stone, 20, stoneTexture, _font),
-                new Resource(ResourceType.Iron, 0, ironTexture, _font)
-            };
-
-            _ui = new UI(new Rectangle(new Point((int)widthRes, 0),
-                new Point(
-                    (int)(Game1.Graphics.PreferredBackBufferWidth * ShareInWidthUI),
-                    Game1.Graphics.PreferredBackBufferHeight)), Resources);
-
-            _ui.Initialize();
+            _settings = new Settings(this);
+            ClearGame();
         }
 
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
-
-            _ui.Update(gameTime);
-
-
-            for (int i = 0; i < _cells.GetLength(0); i++)
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
             {
-                for (int j = 0; j < _cells.GetLength(1); j++)
-                {
-                    _cells[i, j].Update(gameTime);
-                }
+                _onMenu = true;
+                _onSettings = false;
+                _haveWin = false;
             }
+
+            if (_haveWin)
+                _win.Update(gameTime);
+            else if(_onSettings)
+                _settings.Update(gameTime);
+            else if (_onMenu)
+                _menu.Update(gameTime);
+            else
+                _game.Update(gameTime);
 
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            Game1.Graphics.GraphicsDevice.Clear(Color.ForestGreen);
+            GraphicsDevice.Clear(Color.White);
 
             SpriteBatch.Begin();
-
-            for (int i = 0; i < _cells.GetLength(0); i++)
-            {
-                for (int j = 0; j < _cells.GetLength(1); j++)
-                {
-                    _cells[i, j].Draw(SpriteBatch);
-                }
-            }
-
-            _ui.Draw(SpriteBatch);
+            if (_haveWin)
+                _win?.Draw(SpriteBatch);
+            else if (_onSettings)
+                _settings?.Draw(SpriteBatch);
+            else if (_onMenu)
+                _menu?.Draw(SpriteBatch);
+            else
+                _game?.Draw(SpriteBatch);
 
             SpriteBatch.End();
 
             base.Draw(gameTime);
         }
 
-        public static void SwitchBuildMode()
+        public void ClearGame()
         {
-            OnBuildMode = !OnBuildMode;
+            _game = new GamePlay(this);
+            _menu = new Menu(this);
+            _win = new Win(this);
         }
+
+        public void OffMenu()
+            => _onMenu = false;
+
+        public void OnMenu()
+            => _onMenu = true;
+
+        public void OffSettings()
+            => _onSettings = false;
+
+        public void OnSettings()
+            => _onSettings = true;
+
+        public void HaveWin()
+            => _haveWin = true;
+
+        public void NotHaveWin()
+            => _haveWin = false;
     }
 }

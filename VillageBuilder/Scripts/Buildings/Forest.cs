@@ -2,9 +2,6 @@
 using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace VillageBuilder
 {
@@ -18,11 +15,6 @@ namespace VillageBuilder
 
         public Forest(Texture2D texture, Rectangle rect) : base(texture, rect) { }
 
-        public override void Update(GameTime gameTime)
-        {
-            base.Update(gameTime);
-        }
-
-        public override Building Clone() => new Forest(Texture, Rect);
+        public override Building Build(Rectangle newRectangle) => new Forest(Texture, newRectangle);
     }
 }

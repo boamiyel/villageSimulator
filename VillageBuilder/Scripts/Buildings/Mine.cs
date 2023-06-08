@@ -18,6 +18,6 @@ namespace VillageBuilder
 
         public Mine(Texture2D texture, Rectangle rect) : base(texture, rect) { }
 
-        public override Building Clone() => new Mine(Texture, Rect);
+        public override Building Build(Rectangle newRectangle) => new Mine(Texture, newRectangle);
     }
 }

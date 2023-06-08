@@ -1,16 +1,16 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using System;
 using System.Collections.Generic;
 
 namespace VillageBuilder
 {
     public abstract class Building
     {
-        public Texture2D Texture { get; }
         public Rectangle Rect { get; private set; }
-        public abstract Dictionary<ResourceType, int> Gives { get; }
+        public virtual Dictionary<ResourceType, int> Gives { get; }
         public abstract Dictionary<ResourceType, int> Cost { get; }
+
+        protected Texture2D Texture { get; }
 
         private int _timeToStartWork = 6;
         private int _timeToEndWork = 22;
@@ -19,17 +19,20 @@ namespace VillageBuilder
         public Building(Texture2D texture, Rectangle rect)
         {
             Rect = rect;
-            Texture = texture;
+            this.Texture = texture;
         }
 
         public virtual void Update(GameTime gameTime)
         {
-            if (Clock.Time >= _timeToStartWork && Clock.Time <= _timeToEndWork && _lastTimeUpd != Clock.Time)
+            if (Clock.Time >= _timeToStartWork - Chapel.TotalCount * Chapel.AddWorkTime
+                && Clock.Time <= _timeToEndWork && _lastTimeUpd != Clock.Time
+                && Gives != null)
             {
-                foreach (var res in Game1.Resources)
+                foreach (var res in Storage.Resources)
                 {
                     if (Gives.ContainsKey(res.Type))
-                        res.Count += Gives[res.Type];
+                        res.Count += Gives[res.Type] 
+                            + (int)(VillageHouse.TotalCount * VillageHouse.Coefficient * Gives[res.Type]);
                 }
 
                 _lastTimeUpd = Clock.Time;
@@ -41,11 +44,6 @@ namespace VillageBuilder
             spriteBatch.Draw(Texture, Rect, Color.White);
         }
 
-        public void ChangeRect(Rectangle rect)
-        {
-            Rect = rect;
-        }
-
-        public abstract Building Clone();
+        public abstract Building Build(Rectangle newRectangle);
     }
 }

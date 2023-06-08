@@ -14,6 +14,6 @@ namespace VillageBuilder
 
         public IronMining(Texture2D texture, Rectangle rect) : base(texture, rect) { }
 
-        public override Building Clone() => new IronMining(Texture, Rect);
+        public override Building Build(Rectangle newRectangle) => new IronMining(Texture, newRectangle);
     }
 }

@@ -4,21 +4,65 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/back.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/bgMenu.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/bgSettings.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/bgWin.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/exit.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/fullScreen.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/hardOFF.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/hardON.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/iron.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/play.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/ScreenResolution/button1280x720.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/ScreenResolution/button1440x900.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/ScreenResolution/button1600x900.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/ScreenResolution/button1920x1080.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/scroll.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/settings.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/shop.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/stone.png</File>
-    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tile.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/TileForBuild.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileAdministration.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileAdministrationBuy.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileChapel.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileChapelBuy.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileForest.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileForestBuy.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileHouse.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileHouseBuy.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileIronMine.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileIronMineBuy.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileMine.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/Tiles/tileMineBuy.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/toMenu.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/white_pixel.png</File>
+    <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/window.png</File>
     <File>C:/Users/admin/OneDrive/Рабочий стол/Васильев прога❤/villageSimulator/VillageBuilder/Content/Sprites/wood.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
