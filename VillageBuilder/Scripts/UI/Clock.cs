@@ -8,10 +8,10 @@ namespace VillageBuilder
         public static int Time { get; private set; }
         public static int TotalTimeFromStart { get; private set; }
 
-        public const int SecondsForPlayInHard = 480;
+        public const int SecondsForPlayInHard = 400;
+        private const int _littleTimeLeft = 30;
 
         private double _lastTimeUpd = 0;
-        private int _littleTimeLeft = 30;
         private readonly Rectangle _rect;
         private readonly SpriteFont _font;
 
@@ -31,7 +31,6 @@ namespace VillageBuilder
                 return;
 
             TotalTimeFromStart++;
-
             Time = ++Time % 24;
             _lastTimeUpd = currentTime;
         }

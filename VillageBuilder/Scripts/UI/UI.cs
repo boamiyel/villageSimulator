@@ -15,7 +15,7 @@ namespace VillageBuilder
         private readonly Rectangle _rectUI;
         private readonly Resource[] _resources;
         private readonly Game1 _game;
-        private readonly int indent = Game1.Graphics.PreferredBackBufferHeight / 100;
+        private readonly int indent;
 
         private const float ResourceRect = 0.09f;
 
@@ -24,6 +24,8 @@ namespace VillageBuilder
             _game = game;
             _rectUI = rect;
             _resources = resources;
+
+            indent = Game1.Graphics.PreferredBackBufferHeight / 100;
         }
 
         public void Initialize()

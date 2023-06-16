@@ -11,13 +11,9 @@ namespace VillageBuilder
         private Rectangle _drawButtonCollider;
         private Color _color;
         private bool _isPressed;
-        private double _pressTime;
-        private bool _haveClick = false;
         
         private readonly Texture2D _texture;
         private readonly Action<object> _click;
-
-        private const double MaxSecondDelay = 0.2;
 
         public Button(Texture2D sprite, Rectangle buttonCollider, Action<object> onClick)
         {
@@ -27,41 +23,20 @@ namespace VillageBuilder
             _click = onClick;
 
             _color = Color.White;
-            _pressTime = -1;
-        }
-
-        public bool EnterButton()
-        {
-            return Mouse.GetState().X <= _clickableButtonCollider.Location.X + _clickableButtonCollider.Width
-                && Mouse.GetState().Y <= _clickableButtonCollider.Location.Y + _clickableButtonCollider.Height
-                && Mouse.GetState().Y >= _clickableButtonCollider.Location.Y
-                && Mouse.GetState().X >= _clickableButtonCollider.Location.X;
         }
 
         public void Update(GameTime gameTime)
         {
-            if (EnterButton() && Mouse.GetState().LeftButton == ButtonState.Pressed)
-            {
-                _isPressed = true;
-            }
-            else if (_isPressed && !_haveClick 
-                && Mouse.GetState().LeftButton == ButtonState.Released && EnterButton())
+            if (EnterButton() && ! _isPressed && Mouse.GetState().LeftButton == ButtonState.Pressed)
             {
                 _color = Color.Gray;
-                _pressTime = gameTime.TotalGameTime.TotalSeconds;
-                _haveClick = true;
+                _isPressed = true;
+            }
+            else if (_isPressed && Mouse.GetState().LeftButton == ButtonState.Released && EnterButton())
+            {
                 _click(null);
-            }
-            else if (_isPressed && !EnterButton())
-            {
-                _pressTime = gameTime.TotalGameTime.TotalSeconds;
-                _isPressed = false;
-            }
-            else if (_haveClick && gameTime.TotalGameTime.TotalSeconds - _pressTime >= MaxSecondDelay)
-            {
-                _isPressed = false;
-                _haveClick = false;
                 _color = Color.White;
+                _isPressed = false;
             }
         }
 
@@ -69,6 +44,12 @@ namespace VillageBuilder
         {
             spriteBatch.Draw(_texture, _drawButtonCollider, _color);
         }
+
+        public bool EnterButton()
+            => Mouse.GetState().X <= _clickableButtonCollider.Location.X + _clickableButtonCollider.Width
+                && Mouse.GetState().Y <= _clickableButtonCollider.Location.Y + _clickableButtonCollider.Height
+                && Mouse.GetState().Y >= _clickableButtonCollider.Location.Y
+                && Mouse.GetState().X >= _clickableButtonCollider.Location.X;
 
         public void UpdateCollider(Rectangle newCollider)
         {

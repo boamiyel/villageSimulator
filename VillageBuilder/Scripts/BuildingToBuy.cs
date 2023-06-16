@@ -26,16 +26,7 @@ namespace VillageBuilder
 
         public void Initialize()
         {
-            _buyButton = new Button(_textureInShop, _positionInShop,
-                _ =>
-                {
-                    if (Storage.Resources.All(
-                        x => !Building.Cost.ContainsKey(x.Type) 
-                            || Building.Cost.ContainsKey(x.Type) && Building.Cost[x.Type] <= x.Count))
-                    {
-                        Store.SelectedBuilding = this;
-                    }
-                });
+            _buyButton = new Button(_textureInShop, _positionInShop, _ => Store.SelectedBuilding = this );
         }
 
         public void Update(GameTime gameTime)
